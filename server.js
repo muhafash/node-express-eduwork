@@ -6,7 +6,7 @@ const app = express();
 
 // app.use(express.static("public"));
 
-app.get("/", ((req, res)=>{
+app.get("/home", ((req, res)=>{
     res.send("home")
 }));
 
