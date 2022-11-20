@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "start": "node server.js"
+    },
+    "name": "node_express_eduwork",
+    "version": "0.0.1",
+    "description": "Membuat node express sederhana",
+    "main": "server.js",
+    "author": "Muhammad Fajri Assidiq",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "engines": {
+    "node": "16.x"
+  }
+}
