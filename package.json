@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "server": "node server.js",
         "start": "node server.js"
     },
     "name": "node_express_eduwork",

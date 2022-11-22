@@ -2,11 +2,15 @@
 const express= require('express');
 const app = express();
 
-// var server = app.listen(3000, ((listening)=>{console.log("Listening.....")}))
+const port = process.env.PORT ? process.env.PORT : 4000;
 
-// app.use(express.static("public"));
+const server= app.listen(port, () => {
+  console.log(`Server Running on port: ${port}`);
+});
 
-app.get("/home", ((req, res)=>{
+app.use(express.static("public"));
+
+app.get("/", ((req, res)=>{
     res.send("home")
 }));
 
